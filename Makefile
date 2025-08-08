@@ -1,5 +1,5 @@
 all:
-	gcc -g -Wall -Wextra src/main.c -o bin/main
+	gcc -g -Wall -Wextra src/main.c src/win_impl.c -o bin/main
 
-clean:
-	rm bin/**
+clear:
+	@rm bin/**
