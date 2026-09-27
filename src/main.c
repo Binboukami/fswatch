@@ -9,6 +9,7 @@ int main(const int argc, char** argv) {
 	const char* path = argv[ARG_FILE_IDX];
 
 	printf("Watching file: '%s'\n", path);
+	printf("Assim que funciona o github");
 
 	watch_directory(path);
 
